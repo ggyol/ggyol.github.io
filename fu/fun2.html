@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>衍</title>
+    <link rel="stylesheet" href="../cs/fu2.css">
+</head>
+<body>
+    <div class="div1">
+        <p id="p"></p > 
+            <script>
+                     let  str="呼，看来你还是点了进来来"
+                     let  i= 0
+                     let  timer=setInterval(()=>{
+                        p.innerText  +=str[i]
+                        i++
+                        if(i==str.length-1)      {
+                          clearInterval(timer)
+                         }
+                     },400)
+                 </script>  
+    </div>
+</body>
+</html>
